@@ -10,6 +10,40 @@ body {
     width: 90%;
     margin: 0 auto;
 }
+h2 {
+    font-size: 3vw;
+}
+.dec_heading {
+    color: #02B290;
+    text-decoration: underline;
+    text-underline-offset: 30%;
+}
+.dec_heading span {
+    color: #000;
+}
+.btn {
+    background: transparent;
+    padding: 1vw 3vw;
+    border: 2px solid #02B290;
+    color: #02B290!important;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #02B290;
+    color: #fff!important;
+}
+.btn-2 {
+    background: transparent;
+    padding: 1vw 3vw;
+    border: 2px solid #E83A59;
+    color: #E83A59!important;
+    font-weight: bold;
+    margin: 5vh 0;
+}
+.btn-2:hover {
+    background-color: #E83A59;
+    color: #fff!important;
+}
 /* welcome section CSS */
 #welcome-area {
     background: url('img/home-bg.jpg');
@@ -17,6 +51,7 @@ body {
     background-repeat: no-repeat;
     color: #fff;
     height: 100vh;
+    background-attachment: fixed;
 }
 .overlay {
     background-color: rgba(0,0,0,0.7);
@@ -26,10 +61,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 15vh;
     background-color: black;
-    padding: 0 5%;
-    border-bottom: 2px solid #24a7ff;
+    padding: 2vh 5%;
+    border-bottom: 2px solid #02B290;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .logo-area img {
     width: 8vw;
@@ -46,19 +84,10 @@ nav {
     margin: 0 2vw;
 }
 .menu-area a:hover {
-    color: #24a7ff;
+    /* color: #24a7ff; */
+    color: #02B290;
 }
-.btn {
-    background: transparent;
-    padding: 1vw 3vw;
-    border: 2px solid #24a7ff;
-    color: #24a7ff!important;
-    font-weight: bold;
-}
-.btn:hover {
-    background-color: #24a7ff;
-    color: #fff!important;
-}
+
 .menu-area .sub-menu-items {
     display: none;
     background-color: black;
@@ -85,7 +114,8 @@ nav {
     display: flex;
     justify-content: space-between;
     /* background: #252734; */
-    height: 85vh;
+    height: 100vh;
+    margin-top: 10vh;
 }
 
 .greetings-img img {
@@ -97,8 +127,69 @@ nav {
     font-size: 3vw;
     margin: 1vw 0;
 }
-.greetings-words h2 {
+.greetings-words h1 {
     font-size: 4vw;
     margin: 0;
 }
-
+/* Skills Area CSS */
+.my-skills-area {
+    padding: 10vh 0;
+    text-align: center;
+}
+.all-skills {
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+}
+.all-skills .single-skill  {
+    padding: 1vw;
+    margin: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid #24a7ff;
+}
+.single-skill i {
+    font-size: 5vw;
+}
+/* My Recent Projects Section CSS */
+#recent-porject-section {
+    background: #f0e68c;
+}
+.my-recent-projects {
+    padding: 10vh 0;
+    text-align: center;
+}
+.all-projects{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+}
+.single-project img {
+    width: 100%;
+}
+.single-project {
+    margin: 1vw;
+    background-color: #fff;
+    padding-bottom: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+/* .single-project:hover {
+    transform: scale(1.1);
+    transition-duration: .7s;
+} */
+/* My Recent Blog Section CSS */
+.my-recent-blog {
+    padding: 10vh 0;
+    text-align: center;
+}
+.all-blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+}
+.single-blog {
+    margin: 1vw;
+    background-color: #fff;
+    padding: 1vw;
+    text-align: left;
+}
+.single-blog img {
+    width: 100%;
+}
