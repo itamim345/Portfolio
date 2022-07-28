@@ -242,5 +242,43 @@ nav {
 }
 .form-img img {
     width: 100%;
+    border-radius: 10px;
 }
+/* Footer area CSS */
+footer {
+    background-color: #000;
+    padding: 5vh 0;
+}
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.logo img {
+    width: 8vw;
+}
+.social a {
+    text-decoration: none;
+    margin: 0 .5vw;
+}
+.social i {
+    font-size: 2.5vw;
+}
+.social .fb_c {
+    color: #4267B2;
+}
+.social .gm_c {
+    color : #BB001B;
+}
+.social .twt_c {
+    color: #1DA1F2;
+}
+.social .lkd_c {
+    color: #4267B2;
+}
+.social .ytb_c {
+    color: #FF0000;
+}
+
 
