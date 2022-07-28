@@ -262,9 +262,7 @@ footer {
     text-decoration: none;
     margin: 0 .5vw;
 }
-.social i {
-    font-size: 2.5vw;
-}
+
 .social .fb_c {
     color: #4267B2;
 }
@@ -279,6 +277,12 @@ footer {
 }
 .social .ytb_c {
     color: #FF0000;
+}
+.social a i {
+    font-size: 2.5vw;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 50%;
 }
 
 
