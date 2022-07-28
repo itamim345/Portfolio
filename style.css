@@ -1,0 +1,104 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* universal css */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* welcome section CSS */
+#welcome-area {
+    background: url('img/home-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 100vh;
+}
+.overlay {
+    background-color: rgba(0,0,0,0.7);
+}
+/* nav CSS */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background-color: black;
+    padding: 0 5%;
+    border-bottom: 2px solid #24a7ff;
+}
+.logo-area img {
+    width: 8vw;
+}
+.menu-area ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.menu-area a {
+    text-decoration: none;
+    color: white;
+    margin: 0 2vw;
+}
+.menu-area a:hover {
+    color: #24a7ff;
+}
+.btn {
+    background: transparent;
+    padding: 1vw 3vw;
+    border: 2px solid #24a7ff;
+    color: #24a7ff!important;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #24a7ff;
+    color: #fff!important;
+}
+.menu-area .sub-menu-items {
+    display: none;
+    background-color: black;
+}
+.sub-menu {
+    position: relative;
+}
+.menu-area .sub-menu:hover .sub-menu-items {
+    display: block;
+    position: absolute;
+    left: 5%;
+}
+.sub-menu-items li {
+    border-bottom: 3px solid #24a7ff;
+    line-height: 1.5;
+}
+.sub-menu-items li:nth-child(1){
+    margin-top: 2vw;
+}
+
+/* welcome content css */
+.welcome-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* background: #252734; */
+    height: 85vh;
+}
+
+.greetings-img img {
+    width: 100%;
+    border-radius: 10px;
+    height: 70vh;
+}
+.greetings-words h3 {
+    font-size: 3vw;
+    margin: 1vw 0;
+}
+.greetings-words h2 {
+    font-size: 4vw;
+    margin: 0;
+}
+
