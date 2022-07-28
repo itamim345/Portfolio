@@ -10,8 +10,18 @@ body {
     width: 90%;
     margin: 0 auto;
 }
+.overlay {
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+}
+h1 {
+    font-size: 4vw;
+}
 h2 {
     font-size: 3vw;
+}
+h3 {
+    font-size: 2vw;
 }
 .dec_heading {
     color: #02B290;
@@ -53,9 +63,7 @@ h2 {
     height: 100vh;
     background-attachment: fixed;
 }
-.overlay {
-    background-color: rgba(0,0,0,0.7);
-}
+
 /* nav CSS */
 nav {
     display: flex;
@@ -193,3 +201,46 @@ nav {
 .single-blog img {
     width: 100%;
 }
+/* Call to Action Area CSS */
+#call-to-action {
+    background: url('img/call-to-action-bg.jpg');   
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+}
+.call-to-action-area {
+    text-align: center;
+    padding: 10vh 0;
+    color: #fff;
+}
+/* Contact Me section CSS */
+#contact-me {
+    padding: 10vh 5%;
+    text-align: center;
+}
+.contact-me-area {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    padding: 5vh 0;
+}
+.form-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.form-content h3 {
+    margin: 0;
+}
+.form-content input,textarea {
+    padding: 5px;
+    border: 1px solid #02B290;
+}
+.form-img {
+    width: 60%;
+}
+.form-img img {
+    width: 100%;
+}
+
