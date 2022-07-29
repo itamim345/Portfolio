@@ -37,6 +37,14 @@ h3 {
     border: 2px solid #02B290;
     color: #02B290!important;
     font-weight: bold;
+    text-decoration: none;
+}
+.btn a {
+    text-decoration: none;
+    color: #02B290;
+}
+.btn:hover a {
+    color: #fff!important;
 }
 .btn:hover {
     background-color: #02B290;
@@ -49,6 +57,7 @@ h3 {
     color: #E83A59!important;
     font-weight: bold;
     margin: 5vh 0;
+    text-decoration: none;
 }
 .btn-2:hover {
     background-color: #E83A59;
@@ -109,7 +118,7 @@ nav {
     left: 5%;
 }
 .sub-menu-items li {
-    border-bottom: 3px solid #24a7ff;
+    border-bottom: 3px solid #02B290;
     line-height: 1.5;
 }
 .sub-menu-items li:nth-child(1){
@@ -153,7 +162,7 @@ nav {
     margin: 1vw;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 10px;
-    border: 1px solid #24a7ff;
+    border: 1px solid #02B290;
 }
 .single-skill i {
     font-size: 5vw;
@@ -172,6 +181,7 @@ nav {
 }
 .single-project img {
     width: 100%;
+    /* border-bottom: 2px solid #02B290; */
 }
 .single-project {
     margin: 1vw;
@@ -179,10 +189,14 @@ nav {
     padding-bottom: 1vw;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
+.project-btns {
+    margin: 2vh 0;
+}
 /* .single-project:hover {
     transform: scale(1.1);
     transition-duration: .7s;
 } */
+
 /* My Recent Blog Section CSS */
 .my-recent-blog {
     padding: 10vh 0;
