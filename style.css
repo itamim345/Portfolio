@@ -33,7 +33,7 @@ h3 {
 }
 .btn {
     background: transparent;
-    padding: 1vw 3vw;
+    padding: .5rem 1rem;
     border: 2px solid #02B290;
     color: #02B290!important;
     font-weight: bold;
@@ -52,7 +52,7 @@ h3 {
 }
 .btn-2 {
     background: transparent;
-    padding: 1vw 3vw;
+    padding: .5rem 1rem;
     border: 2px solid #E83A59;
     color: #E83A59!important;
     font-weight: bold;
@@ -297,6 +297,42 @@ footer {
     padding: 10px;
     border: 3px solid;
     border-radius: 50%;
+}
+@media (max-width: 768px){
+    /* nav */
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    nav .contact-me {
+        margin-bottom: 1rem;
+    }
+    /* welcome-area */
+    #welcome-area {
+        height: 70vh;
+    }
+    .welcome-content {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .greetings-img {
+        display: none;
+    }
+    /* project btns */
+    .project-btns {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+    .project-btns .btn-2 {
+        margin: 0;
+    }
+    .project-btns .btn,.btn-2 {
+        font-size: .6rem;
+    }
+
 }
 
 
