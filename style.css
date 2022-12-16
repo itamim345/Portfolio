@@ -269,6 +269,9 @@ footer {
     align-items: center;
     color: #fff;
 }
+.footer-area .footer-heart{
+    color: #f8312f
+}
 .logo img {
     width: 8vw;
 }
