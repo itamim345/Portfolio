@@ -306,6 +306,7 @@ footer {
     nav {
         flex-direction: column;
         gap: 1rem;
+        display: none;
     }
     nav .contact-me {
         margin-bottom: 1rem;
