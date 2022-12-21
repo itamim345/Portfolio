@@ -319,6 +319,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         margin-top: 0;
+        height: auto;
     }
     .greetings-img {
         display: none;
