@@ -302,6 +302,9 @@ footer {
     border-radius: 50%;
 }
 @media (max-width: 768px){
+    h3 {
+    font-size: 1rem;
+}
     /* nav */
     nav {
         flex-direction: column;
