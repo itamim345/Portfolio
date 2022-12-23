@@ -340,6 +340,10 @@ footer {
     .project-btns .btn,.btn-2 {
         font-size: .6rem;
     }
+    .footer-area {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
