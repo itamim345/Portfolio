@@ -341,7 +341,6 @@ footer {
         font-size: .6rem;
     }
     .footer-area {
-        display: flex;
         flex-direction: column;
     }
 
