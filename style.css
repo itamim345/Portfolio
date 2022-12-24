@@ -316,7 +316,7 @@ footer {
     }
     /* welcome-area */
     #welcome-area {
-        height: 70vh;
+        height: 35vh;
     }
     .welcome-content {
         flex-direction: column;
