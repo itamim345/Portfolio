@@ -219,7 +219,7 @@ nav {
 #call-to-action {
     background: url('img/call-to-action-bg.jpg');   
     background-size: cover;
-    height: 50vh;
+    /* height: 50vh; */
     background-attachment: fixed;
 }
 .call-to-action-area {
